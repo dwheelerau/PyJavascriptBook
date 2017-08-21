@@ -15,9 +15,10 @@ console.log(foo.bar);
 console.log(foo.baz);
 
 // example of loop not used very often anymore
-data.forEach(function(d){
-    console.log(d);
+Object.keys(foo).forEach(function(b){
+    console.log(b);
 });
+
 // more modern way using underscore
 //_.each(foo, function(value, key){
 //})
