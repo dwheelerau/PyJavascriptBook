@@ -1,0 +1,23 @@
+{
+  "name": "pyjavascriptbook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "oo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwheelerau/PyJavascriptBook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwheelerau/PyJavascriptBook/issues"
+  },
+  "homepage": "https://github.com/dwheelerau/PyJavascriptBook#readme",
+  "devDependencies": {
+    "eslint-config-google": "^0.9.1"
+  },
+  "dependencies": {}
+}
