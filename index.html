@@ -1,6 +1,44 @@
 <!-- index.html -->
 <!DOCTYPE html>
 <meta charset="utf-8">
-<div id='viz'></div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-<script type="text/javascript" src="uscore.js" async></script>
+
+<link ref="stylesheet" href="style.css" type="text/css" />
+
+<body>
+
+  <div id="chart-holder" class="dev">
+    <div id="header">
+      <h2>A catchy title</h2>
+      <p>Some body text</p>
+    </div>
+    <div id="chart-components">
+      <div id="main">
+        A placeholder for main chart.
+<style>
+svg#chart {
+  background: lightgray;
+}
+svg#chart circle {fill: blue}
+svg#chart path {stroke: red; fill: none}
+</style>
+
+<svg id="chart" width="300" height="225">
+  <circle r="15" cx="100" cy="150"></circle>
+  <rect x="240" y="5" width="55" height="30"></rect>
+  <text x="220" y="20" transform="roate(-90,20,20)"
+                      text-anchor="end" dy="0.71em">
+    y axis label</text>
+  <path d="M20 130L60 70L110 100L160 45"></path>
+  </sgv>
+
+
+      </div>
+      <div id="sidebar">
+        <p>Some useful info, prob changing with user int</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="script.js"></script>
+</body>
